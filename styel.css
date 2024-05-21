@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    width: 300px;
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+input, button {
+    margin-top: 10px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+}
+
+#translatedWord {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
