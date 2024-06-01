@@ -2,7 +2,7 @@
   "manifest_version" : 3,
   "version": "1.0",
   "name": "trio",
-  "description" : "",
+  "description" : "bla bla bla",
   "action" :{
     "default_popup" : "popup.html"
   },
@@ -10,7 +10,10 @@
   "permissions": [
     "activeTab"
   ],
-  "background": {
-    
-  }
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["selectText.js"]
+    }
+  ]
 }
